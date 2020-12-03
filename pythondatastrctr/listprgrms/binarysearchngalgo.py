@@ -4,7 +4,7 @@ value=int(input('enter the element'))
 low=0
 upp=len(lst)-1
 flg=0
-while(low<upp):
+while(low<=upp):
     mid=(low+upp)//2
     if(value>lst[mid]):
         low=mid+1
