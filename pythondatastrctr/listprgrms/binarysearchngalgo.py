@@ -1,5 +1,6 @@
 lst=[2,1,5,8,7,6,8,10,3,11]
 lst.sort()
+#print(lst)
 value=int(input('enter the element'))
 low=0
 upp=len(lst)-1
