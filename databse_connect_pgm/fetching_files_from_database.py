@@ -1,9 +1,9 @@
-from databse_connect_pgm.database_connecting import *
-db=get_connection()
+from databse_connect_pgm.DB_CONNECTION2 import *
+db=sql_injection_with_python()
 
 cursor=db.cursor()
 
-sql="select * from faculty"
+sql="select * from bikes"
 
 try:
     cursor.execute(sql)
